@@ -1,20 +1,24 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Discord Rich Presence for Claude Code and Codex",
   "homepage": "https://github.com/jx-grxf/agent-presence",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/jx-grxf/agent-presence/releases/download/v0.2.0/agent-presence-v0.2.0-x86_64-pc-windows-msvc.zip",
-      "hash": "893518907d482e8cffa16754dedec43d5a131bd9af163226a0494ea97a5e5918",
-      "extract_dir": "agent-presence-v0.2.0-x86_64-pc-windows-msvc"
+      "url": "https://github.com/jx-grxf/agent-presence/releases/download/v0.2.1/agent-presence-v0.2.1-x86_64-pc-windows-msvc.zip",
+      "hash": "d9162f08706f97800067a10bb8588cf21a9b326cf4ca66676eddeecfa609674d",
+      "extract_dir": "agent-presence-v0.2.1-x86_64-pc-windows-msvc"
     }
   },
   "bin": "agent-presence.exe",
+  "post_install": [
+    "# Scoop runs this unsandboxed, so the hooks can be wired up for you.",
+    "& \"$dir\\agent-presence.exe\" install"
+  ],
   "notes": [
-    "Wire it into the agents you have installed:",
-    "  agent-presence install",
-    "  agent-presence doctor"
+    "Hooks are installed. Restart your agent, then:",
+    "  agent-presence doctor   # verify",
+    "  agent-presence config   # choose what is shown"
   ],
   "checkver": {
     "github": "https://github.com/jx-grxf/agent-presence"
