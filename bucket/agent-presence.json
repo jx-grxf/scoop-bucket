@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/jx-grxf/agent-presence/releases/download/v0.2.1/agent-presence-v0.2.1-x86_64-pc-windows-msvc.zip",
-      "hash": "d9162f08706f97800067a10bb8588cf21a9b326cf4ca66676eddeecfa609674d",
+      "hash": "c19adee01b9d5004e9e7e433a736cd9e4a3f368205d7b1084a90e4e4917be462",
       "extract_dir": "agent-presence-v0.2.1-x86_64-pc-windows-msvc"
     }
   },
