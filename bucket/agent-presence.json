@@ -1,13 +1,13 @@
 {
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Discord Rich Presence for Claude Code and Codex",
   "homepage": "https://github.com/jx-grxf/agent-presence",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/jx-grxf/agent-presence/releases/download/v0.1.1/agent-presence-v0.1.1-x86_64-pc-windows-msvc.zip",
-      "hash": "b515f385bc532714e46bbdd6bd8f7617311d512640a7ae63273e3a3a7c28d003",
-      "extract_dir": "agent-presence-v0.1.1-x86_64-pc-windows-msvc"
+      "url": "https://github.com/jx-grxf/agent-presence/releases/download/v0.2.0/agent-presence-v0.2.0-x86_64-pc-windows-msvc.zip",
+      "hash": "893518907d482e8cffa16754dedec43d5a131bd9af163226a0494ea97a5e5918",
+      "extract_dir": "agent-presence-v0.2.0-x86_64-pc-windows-msvc"
     }
   },
   "bin": "agent-presence.exe",
